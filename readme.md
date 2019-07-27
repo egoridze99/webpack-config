@@ -1,4 +1,4 @@
-### Готовый конфиг для webpack  
+# Готовый конфиг для webpack  
 ___
 Собранный webpack.config.js для дальнейшего использования  
 ## Для начала работы  
@@ -15,10 +15,10 @@ ___
 8. node static
 ___
 ## NPM команды  
-# Для запуска dev-server  
+### Для запуска dev-server  
 `npm run devserv`  
-# Для сбокри на production  
+### Для сбокри на production  
 `npm start`
-# Для запуска producrion сервера  
+### Для запуска producrion сервера  
 `npm run prodserv`
 
