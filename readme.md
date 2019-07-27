@@ -1,10 +1,10 @@
-###Готовый конфиг для webpack  
+### Готовый конфиг для webpack  
 ___
 Собранный webpack.config.js для дальнейшего использования  
-##Для начала работы  
+## Для начала работы  
 `npm install`  
 ___
-##Подключенные модули  
+## Подключенные модули  
 1. babel
 2. css.extract
 3. css loader
@@ -14,11 +14,11 @@ ___
 7. devserver
 8. node static
 ___
-##NPM команды  
-#Для запуска dev-server  
+## NPM команды  
+# Для запуска dev-server  
 `npm run devserv`  
-#Для сбокри на production
+# Для сбокри на production  
 `npm start`
-#Для запуска producrion сервера
+# Для запуска producrion сервера  
 `npm run prodserv`
 
