@@ -29,7 +29,9 @@ const common = merge([
             publicPath: '/dist'
         }
     },
-    fileLoader()
+    babel(),
+    fileLoader(),
+    plugins()
 ])
 
 module.exports = function(env) {
@@ -38,8 +40,6 @@ module.exports = function(env) {
             common,
             extract(),
             optimization(),
-            plugins(),
-            babel()
         ])
     };
     if (env === 'development') {
@@ -47,8 +47,7 @@ module.exports = function(env) {
            common,
            devConfig() ,
            sass(),
-           css(),
-           babel()
+           css()
         ])
     }
 };
