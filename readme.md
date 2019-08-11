@@ -9,10 +9,12 @@ ___
 2. css.extract
 3. css loader
 4. sass loader
-5. file loader
-6. Минификаторы js и css
-7. devserver
-8. node static
+5. file loader  
+6. copy  
+7. normalize  
+8. Минификаторы js и css
+9. devserver
+10. node static
 ___
 ## NPM команды  
 ### Для запуска dev-server  
