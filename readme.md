@@ -14,13 +14,14 @@ ___
 7. normalize  
 8. Минификаторы js и css
 9. devserver
-10. node static
+10. node static  
+11. поддержка typeScript
 ___
 ## NPM команды  
 ### Для запуска dev-server  
-`npm run devserv`  
+`npm start`  
 ### Для сбокри на production  
-`npm start`
+`npm build`
 ### Для запуска producrion сервера  
 `npm run prodserv`
 
