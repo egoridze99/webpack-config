@@ -23,5 +23,10 @@ ___
 ### Для сбокри на production  
 `npm build`
 ### Для запуска producrion сервера  
-`npm run prodserv`
+`npm run prodserv`  
+
+___
+## Важно  
+Если проект не использует typeScript, разкоментировать строку `babel()` в config.  
+Если проект использует typeScript, разкоментировать строку `typeScript()` в config.
 

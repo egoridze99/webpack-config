@@ -9,7 +9,7 @@ const plugins = require('./webpack/plugins');
 const optimization = require('./webpack/optimization');
 const babel = require('./webpack/babel');
 const fileLoader = require('./webpack/file-loader');
-
+const typeScript = require('./webpack/typescript');
 
 const PATHS = {
     src : path.join(__dirname, 'src/script'),
@@ -19,7 +19,7 @@ const PATHS = {
 const common = merge([
     {
         entry : {
-        app : PATHS.src + '/index.js',
+        app : PATHS.src + '/index.ts', // index.js / index.ts
         }
     },
     {
@@ -29,8 +29,9 @@ const common = merge([
             publicPath: '/dist'
         }
     },
-    babel(),
     fileLoader(),
+    // babel(),
+    typeScript(),
     plugins()
 ])
 
