@@ -30,6 +30,7 @@ const common = merge([
         }
     },
     fileLoader(),
+    // Либо typeScript, либо babel()
     // babel(),
     typeScript(),
     plugins()
